@@ -1,6 +1,6 @@
 import html
 
-from telegram import ChatMemberAdministrator, Update, InlineKeyboardButton, InlineKeyboardMarkup, ChatMemberOwner
+from telegram import  Update, InlineKeyboardButton, InlineKeyboardMarkup, ChatMemberOwner
 from telegram.constants import ParseMode, ChatMemberStatus, ChatID, ChatType
 from telegram.error import BadRequest
 from telegram.ext import ContextTypes, CommandHandler, filters, CallbackQueryHandler
